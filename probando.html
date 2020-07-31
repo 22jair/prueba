@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+
+
+</body>
+
+<script type="text/javascript">
+      const ApiWebUrl = "http://pix.pe/servicioandroid/"
+
+    const ruta = "http://pix.pe/servicioandroid/serviciocategorias.php";
+
+        fetch(ruta)
+            .then(response => response.json())
+            .then(data =>{
+               
+                console.log(data);
+            })
+</script>
+
+</html>
